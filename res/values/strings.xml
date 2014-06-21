@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JeparaGov</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="str_desc">Deskripsi</string>
+    <string name="str_pemerintah">PEMERINTAH</string>
+    <string name="str_berita">BERITA</string>
+    <string name="str_wisata">WISATA</string>
+    <string name="str_kuliner">KULINER</string>
+    <string name="str_galeri">GALERI</string>
+    <string name="str_about">TENTANG</string>
+    
+    <string name="str_sejarah">Sejarah</string>
+	<string name="str_visi_misi">Visi Misi</string>
+	<string name="str_sto">Organisasi</string>
+	<string name="str_geografis">Geografis</string>
+</resources>

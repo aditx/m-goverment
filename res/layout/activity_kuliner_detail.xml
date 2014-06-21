@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+		android:id="@+id/image_kuliner_detail"
+		android:layout_width="128dip"
+		android:layout_height="128dip"
+		android:layout_gravity="center_horizontal"
+		android:src="@drawable/ic_anonymous" />
+    
+    <TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent" >
+	    
+        <TableRow
+       		android:padding="10dp"
+       		android:layout_width="wrap_content"
+	    	android:layout_height="match_parent" >
+	    	
+            <TextView
+				android:id="@+id/txtteks2"
+				android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+				android:text="Nama Tempat : "
+				android:paddingLeft="5dp" />
+		       		
+		     <TextView
+			 	android:id="@+id/txt_nm_kuliner"
+			 	android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+			  	android:paddingLeft="5dp"
+			 	android:textStyle="bold" />
+		       	
+	    </TableRow>
+	    
+        <TableRow
+       		android:padding="10dp"
+       		android:layout_width="wrap_content"
+	    	android:layout_height="match_parent" >
+	    	
+            <TextView
+				android:id="@+id/txtteks3"
+				android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+				android:text="Alamat : "
+				android:paddingLeft="5dp" />
+		       		
+		     <TextView
+			 	android:id="@+id/txt_alamat_kuliner"
+			 	android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+			  	android:paddingLeft="5dp"/>
+		       	
+	    </TableRow>
+	    
+        <TableRow
+       		android:padding="10dp"
+       		android:layout_width="wrap_content"
+	    	android:layout_height="match_parent" >
+	    	
+            <TextView
+				android:id="@+id/txtteks4"
+				android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+				android:text="Jam Operasi : "
+				android:paddingLeft="5dp" />
+		       		
+		     <TextView
+			 	android:id="@+id/txt_jm_kuliner"
+			 	android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+			  	android:paddingLeft="5dp"/>
+		       	
+	    </TableRow>
+	    
+        <TableRow
+       		android:padding="10dp"
+       		android:layout_width="wrap_content"
+	    	android:layout_height="match_parent" >
+	    	
+            <TextView
+				android:id="@+id/txtteks2"
+				android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+				android:text="Deskripsi : "
+				android:paddingLeft="5dp" />
+		       		
+		     <TextView
+			 	android:id="@+id/txt_deskripsi_kuliner"
+			 	android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+			  	android:paddingLeft="5dp"/>
+		       	
+	    </TableRow>
+	    
+	</TableLayout>
+
+</LinearLayout>

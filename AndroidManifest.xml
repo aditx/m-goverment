@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.aditya.jeparagov"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="id.aditya.jeparagov.MainActivity"
+            android:label="M-Goverment" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="HomeActivity" android:label="M-Goverment Jepara" android:screenOrientation="portrait"></activity>
+        <activity android:name="ProfileActivity" android:label="Pemerintah" android:screenOrientation="portrait"></activity>
+        <activity android:name="VisiActivity" android:label="Visi Misi" android:screenOrientation="portrait"></activity>
+        <activity android:name="Sejarah" android:label="Sejarah" android:screenOrientation="portrait"></activity>
+        <activity android:name="geografis" android:label="Geografis" android:screenOrientation="portrait"></activity>
+        <activity android:name="WisataActivity" android:label="Wisata" android:screenOrientation="portrait"></activity>
+        <activity android:name="WisataDetailActivity" android:label="Wisata Detail" android:screenOrientation="portrait"></activity>
+        <activity android:name="KulinerActivity" android:label="Kuliner" android:screenOrientation="portrait"></activity>
+        <activity android:name="KulinerDetailActivity" android:label="Kuliner Detail" android:screenOrientation="portrait"></activity>
+        <activity android:name="STOActivity" android:label="STO" android:screenOrientation="portrait"></activity>
+        <activity android:name="AboutActivity" android:label="Tentang Program" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

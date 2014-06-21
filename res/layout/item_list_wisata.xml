@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:padding="5dip" >
+	<LinearLayout
+		android:id="@+id/thumbnail"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_marginRight="1dip"
+		android:paddingLeft="3dip"
+		android:paddingRight="3dip" >
+		
+		<ImageView
+			android:id="@+id/image_wisata"
+			android:layout_width="70dip"
+			android:layout_height="70dip"
+			android:src="@drawable/ic_anonymous" />
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/nm_wisata"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/thumbnail"
+		android:layout_toRightOf="@+id/thumbnail"
+		android:text="Nama Rumah Sakit"
+		android:textColor="#040404"
+		android:textSize="12dip"
+		android:layout_marginTop="5dip"
+		android:textStyle="bold"
+		android:typeface="sans" />
+	
+	<TextView
+		android:id="@+id/alamat"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/nm_wisata"
+		android:layout_marginTop="3dip"
+		android:layout_toRightOf="@+id/thumbnail"
+		android:text="Alamat Rumah Sakit"
+		android:textColor="#000000"
+		android:textSize="12dip" />
+
+	<TextView
+		android:id="@+id/jam_operasi"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/alamat"
+		android:layout_marginLeft="0dip"
+		android:layout_toRightOf="@+id/thumbnail"
+		android:text="No. Telepon Rumah Sakit"
+		android:textColor="#ff0000"
+		android:layout_marginTop="3dip"
+		android:textSize="11dip"
+		android:textStyle="bold" />
+	
+	<TextView
+		android:id="@+id/deskripsi"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+	
+	<TextView
+		android:id="@+id/id_wisata"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+</RelativeLayout>
